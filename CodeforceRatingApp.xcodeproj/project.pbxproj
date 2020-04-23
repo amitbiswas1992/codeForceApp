@@ -13,6 +13,8 @@
 		5ED0E3DA2451545600BE12EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0E3D82451545600BE12EC /* Main.storyboard */; };
 		5ED0E3DC2451545900BE12EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0E3DB2451545900BE12EC /* Assets.xcassets */; };
 		5ED0E3DF2451545900BE12EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED0E3DD2451545900BE12EC /* LaunchScreen.storyboard */; };
+		5ED0E3EF2451550C00BE12EC /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0E3ED2451550C00BE12EC /* ResultModel.swift */; };
+		5ED0E3F02451550C00BE12EC /* JSONResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0E3EE2451550C00BE12EC /* JSONResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5ED0E3DB2451545900BE12EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED0E3DE2451545900BE12EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ED0E3E02451545900BE12EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED0E3ED2451550C00BE12EC /* ResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultModel.swift; path = ../../../../Downloads/ResultModel.swift; sourceTree = "<group>"; };
+		5ED0E3EE2451550C00BE12EC /* JSONResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONResponseModel.swift; path = ../../../../Downloads/JSONResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,9 @@
 		5ED0E3D12451545600BE12EC /* CodeforceRatingApp */ = {
 			isa = PBXGroup;
 			children = (
+				5ED0E3E82451548B00BE12EC /* View */,
+				5ED0E3E72451548800BE12EC /* Controller */,
+				5ED0E3E62451547C00BE12EC /* Model */,
 				5ED0E3D22451545600BE12EC /* AppDelegate.swift */,
 				5ED0E3D42451545600BE12EC /* SceneDelegate.swift */,
 				5ED0E3D62451545600BE12EC /* ViewController.swift */,
@@ -65,6 +72,29 @@
 				5ED0E3E02451545900BE12EC /* Info.plist */,
 			);
 			path = CodeforceRatingApp;
+			sourceTree = "<group>";
+		};
+		5ED0E3E62451547C00BE12EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0E3EE2451550C00BE12EC /* JSONResponseModel.swift */,
+				5ED0E3ED2451550C00BE12EC /* ResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5ED0E3E72451548800BE12EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5ED0E3E82451548B00BE12EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED0E3D72451545600BE12EC /* ViewController.swift in Sources */,
+				5ED0E3EF2451550C00BE12EC /* ResultModel.swift in Sources */,
+				5ED0E3F02451550C00BE12EC /* JSONResponseModel.swift in Sources */,
 				5ED0E3D32451545600BE12EC /* AppDelegate.swift in Sources */,
 				5ED0E3D52451545600BE12EC /* SceneDelegate.swift in Sources */,
 			);
